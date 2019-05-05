@@ -25,7 +25,7 @@ bot.on('message' , function(message){
     var word2 = message.content.toUpperCase();
 
     
-  if(word1 == 'AGENDBRO' || word1 == 'AGEND')
+ if(word1 == 'AGENDBRO' || word1 == 'AGEND')
  {
      message.channel.sendMessage( message.author.username + ", don't call him for no reaseon! smh");
  }
