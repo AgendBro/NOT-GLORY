@@ -45,7 +45,7 @@ bot.on('message' , function(message){
  {
     message.channel.send({
         files: [
-            "F:/NOTGlory/connected.png"
+            "../connected.png"
         ]
     });     
 }
