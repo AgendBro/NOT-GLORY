@@ -1,7 +1,6 @@
 const Commando = require('discord.js-commando');
 const bot = new Commando.Client();
 const TOKEN = 'NTQyNjYzODQzMTQzMjIxMjU5.XPdYTQ.n1Y7gEcPVvrIhIrtd4VG35jWgns';
-const cheerio = require("cheerio"); /* Used to extract html content, based on jQuery || install with npm install cheerio */
 const request = require("request"); /* Used to make requests to URLs and fetch response  || install with npm install request */
 
 const discord = require('discord.js');
